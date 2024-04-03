@@ -13,6 +13,8 @@ author: Zhangxx
 
 <!-- more -->
 
+#INCAR常用参数含义
+
 **\# Global Parameters**
 
 SYSTEM = BT    \# 随便取名
