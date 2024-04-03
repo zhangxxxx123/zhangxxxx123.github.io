@@ -13,7 +13,7 @@ author: Zhangxx
 
 <!-- more -->
 
-**>\# Global Parameters**
+**\# Global Parameters**
 
 SYSTEM = BT    \# 随便取名
 
@@ -35,7 +35,7 @@ ENCUT = 500 \# 平面波的截面能，为POTCAR中最大值的1.3~1.5倍。
 
 LORBIT = 11 \# 画投影态密度，一般为11。
 
-**>\# Electronic Relaxation**
+**\# Electronic Relaxation**
 
 ISMEAR =  0 
 
@@ -47,7 +47,7 @@ NELMIN =  6 \#电子自洽最小步数。默认值为2
 
 EDIFF = 1E-06 \#电子自洽的收敛标准。默认值为E-04。
 
-**>\# Ionic Relaxation**
+**\# Ionic Relaxation**
 
 NSW =  0 \# 离子运动的最大步数，在做*结构优化或者分子动力学中*设置。默认值为0，即离子不动。
 
