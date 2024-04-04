@@ -88,12 +88,50 @@ author: Zhangxx
 
 ## 能带计算（非自洽计算）
 
+将自洽计算后的scf文件复制一份并命名复制文件夹（band）。
 
+由于进行能带计算时，需要获得更为密集的高对称性的K点，因此需要借助工具（[vaspkit](https://vaspkit.com)）。
 
+vaspkit获取能带数据操作流程：vaspkit ————— 303 ———— 产生KPATH.in ———— 删除KPOINTS并将KPATH.in命名为KPOINTS。
 
+直接运行vasp——std。计算结束后，使用vaspkit————211————生成band.dat————接下来开始你的画图表演。
 
 ## 态密度计算（非自洽计算）
 
+将自洽计算后的scf文件复制一份并命名复制文件夹（dos）。
 
+打开INCAR并修改。
 
+### INCAR
+- #Global  parameter
+- SYSTEM = BST
+- ISTART = 1
+- ISPIN  = 1 
+- ICHARG = 11
+- LWAVE = T 
+- LCHARG = T 
+- LVTOT = F 
+- LELF = F 
+- ENCUT = 600 
+- LORBIT = 11
+- #Electronic Relaxation
+- ISMEAR = 0
+- SIGMA = 0.05
+- NELM = 300
+- NELMIN = 6
+- EDIFF = 1E-06
+- #Ionic Relaxation
+- NSW = 0
+- IBRION = -1
+- ISIF = 3
+- EDIFFG = -1E-03
+- #DOS
+- NEDOS = 3000
+- #HSE06
+- #LHFCALC   = .TRUE.
+- #HFSCREEN  = 0.2 
+- #PRECFOCK  = Fast
 
+保存INCAR，运行vasp_std。计算完成后，使用vaspkit画态密度图。
+
+vaspkit获取态密度数据操作流程：关于DOS数据获取的功能，在vaspkit ———— 11都可以获取（例如：vaspkit ————— 111 ———— 产生TDOS.dat）。
