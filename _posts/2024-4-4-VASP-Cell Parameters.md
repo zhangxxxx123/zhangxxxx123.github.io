@@ -17,7 +17,7 @@ author: Zhangxx
 基本思路：通过构建不同晶格常数的POSCAR进行计算，获取能量最低晶胞的晶格常数。
 
 ### INCAR
-- #SYSTEM = BT
+- SYSTEM = BT
 - ISTART = 1
 - ICHARG = 1
 - ENCUT = 600
