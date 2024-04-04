@@ -48,3 +48,5 @@ author: Zhangxx
 
 在ecc文件夹中找到OUTCAR，搜索关键词SYMMETRIZED ELASTIC MODULI获得弹性常数矩阵，再通过各类弹性常数计算公式，计算出C11，C12，C44，C11-C12，C11+2C12，G/GPa，B，E/GPa，B/G，G/B，V，C12-C44，Az，AVR等。
 
+---
+#### 最后，你认为有什么哪里需要修改，或者你认为有什么更好的idea，欢迎通过邮箱联系我！
