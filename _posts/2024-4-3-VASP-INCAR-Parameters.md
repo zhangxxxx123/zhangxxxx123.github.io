@@ -85,13 +85,13 @@ NBANDS = XX \# 表示能带数目，通常不用设置，但在有的计算中�
 
 LEPSILON = T \# 使用密度泛函微扰理论计算静态介电常数、压电张量和玻恩有效电荷。
 
-LOPTICS = T  \#计算频率依赖的介电函数的实部和虚部。
+LOPTICS = T  \# 计算频率依赖的介电函数的实部和虚部。
 
 LPTAD = T
 
 IBRION = 8
 
-EFIELD_PEAD = Ex Ey Ez（eV/Å） \#对绝缘体加均匀电场。
+EFIELD_PEAD = Ex Ey Ez（eV/Å） \# 对绝缘体加均匀电场。
 
 
 
