@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "INCAR常用参数含义"
-date:   2024-4-3
+date:   2023-10-3
 tags: [VASP]
 comments: true
 author: Zhangxx
