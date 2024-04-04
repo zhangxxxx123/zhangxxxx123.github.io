@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "材料的弹性性能计算"
-date:   2024-1-24
+date:   2024-2-14
 tags: [VASP]
 comments: true
 author: Zhangxx
