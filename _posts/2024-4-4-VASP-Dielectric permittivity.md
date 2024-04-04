@@ -1,9 +1,13 @@
 ---
 layout: post
-title: "Band和Dos的计算过程"
-date:   2023-10-24
+title: "介电常数的计算过程"
+date:   2023-12-44
 tags: [VASP]
 comments: true
 author: Zhangxx
 ---
+
+开始介电常数（Dielectric Permittivity）的学习啦，接下来直接进入正题！
+
+<!-- more -->
 
