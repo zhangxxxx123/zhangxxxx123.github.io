@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "来自博主的一封介绍信"
-date:   2023-4-24
+date:   2023-8-24
 tags: [介绍]
 comments: true
 author: zhangxxxx123
