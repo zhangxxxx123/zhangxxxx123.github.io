@@ -51,8 +51,7 @@ Direct
 
 根据Birch-Murnaghan方程对上述不同晶胞参数的E0进行最小平方差拟合得到平衡晶格常数。
 
-
-
+![1](https://pianfan.github.io/images/Cell_Parameters/1.png)
 
 ---
 #### 最后，你认为有什么哪里需要修改，或者你认为有什么更好的idea，欢迎通过邮箱联系我！
