@@ -1,5 +1,5 @@
 name: "Zhangxx's blog"
-description: "Zhangxx的个人博客"
+description: "Zhangxx的博客"
 
 avatar: https://zhangxxxx123.github.io/images/avatar.png
 favicon: https://zhangxxxx123.github.io/images/favicon.ico
@@ -18,7 +18,7 @@ excerpt_separator: <!-- more -->
 
 footer-links:
   zhihu: 
-  email: zhangxianxin666@outlook.com
+  email: 3428189582@qq.com
   facebook:
   github: zhangxxxx123
   rss: # just type anything here for a working RSS icon
