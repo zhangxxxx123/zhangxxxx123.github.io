@@ -37,7 +37,7 @@ ENCUT = 500 \# 平面波的截面能，为POTCAR中最大值的1.3~1.5倍。
 
 LORBIT = 11 \# 画投影态密度，一般为11。
 
-GGA = PE \# PE为PBE泛函；默认为LDA泛函；如果杂化泛函HSE06，不用设置GGA，添加以下内容：
+GGA = PE \# PE为PBE泛函；默认为LDA泛函；如果杂化泛函HSE06，不用设置GGA，添加以下内容；点击[GGA](https://www.vasp.at/wiki/index.php/GGA)可进一步了解
 
 - LHFCALC = T
 
