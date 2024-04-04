@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "介电常数的计算过程"
-date:   2024-1-4
+date:   2024-4-4
 tags: [VASP]
 comments: true
 author: Zhangxx
