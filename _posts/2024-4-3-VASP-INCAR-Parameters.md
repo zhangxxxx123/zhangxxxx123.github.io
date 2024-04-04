@@ -13,7 +13,7 @@ INCAR文件控制vasp将进行何种性质的计算，我们需设置一些重�
 
 <!-- more -->
 
-## INCAR常用参数含义
+## INCAR常用参数含义（持续更新中...）
 
 **\# Global Parameters**
 
