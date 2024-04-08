@@ -26,3 +26,12 @@ author: Zhangxx
 ![4](https://zhangxxxx123.github.io/images/Office/4.png)
 
 ![5](https://zhangxxxx123.github.io/images/Office/5.png)
+
+4. 将导出的config.xml文件放进Office文件夹中。
+5. 打开Office文件夹。如果你的电脑是win11，直接右击终端CMD；如果你的电脑是win10，复制当前文件夹地址，打开CMD终端，输入“cd 地址”
+6. 输入以下命令：
+   > setup /download config.xml    #下载Office安装包
+   >
+   > setup /configure config.xml   #安装office安装包
+7. 安装完成后，应该是激活状态了，如果没有激活，那就网上找一个激活工具吧！
+
