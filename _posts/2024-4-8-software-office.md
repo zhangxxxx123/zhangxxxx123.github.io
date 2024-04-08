@@ -14,7 +14,7 @@ author: Zhangxx
 接下来是Office的安装步骤：
 
 1. 在桌面新建一个文件夹并命名为Office；
-2. 下载[Office软件部署工具](https://www.microsoft.com/en-us/download/details.aspx?id=49117)到桌面，双击》》》将部署文件安装在Office中；
+2. 下载[Office软件部署工具](https://www.microsoft.com/en-us/download/details.aspx?id=49117)到桌面，双击将部署文件安装在Office中；
 3. 打开网页[office 版本自定义工具](https://config.office.com/deploymentsettings)，按照下图的提示设置自定义Office；
 
 ![1](https://zhangxxxx123.github.io/images/Office/1.png)
