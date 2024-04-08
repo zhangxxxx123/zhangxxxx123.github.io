@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Office免费安装"
-date:   2023-12-4
+date:   2024-3-4
 tags: [software]
 comments: true
 author: Zhangxx
@@ -35,3 +35,5 @@ author: Zhangxx
    > setup /configure config.xml   #安装office安装包
 7. 安装完成后，应该是激活状态了，如果没有激活，那就网上找一个激活工具吧！
 
+---
+#### 最后，你认为有什么哪里需要修改，或者你认为有什么更好的idea，欢迎通过邮箱联系我！
