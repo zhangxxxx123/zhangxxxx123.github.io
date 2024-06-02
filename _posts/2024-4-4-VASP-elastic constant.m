@@ -7,7 +7,7 @@ comments: true
 author: Zhangxx
 ---
 
-开始介电常数（Dielectric Permittivity）的学习啦，接下来直接进入正题！
+开始弹性常数（Elastic constant）的学习啦，接下来直接进入正题！
 
 <!-- more -->
 
