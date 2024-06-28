@@ -54,7 +54,7 @@ author: Zhangxx
 
 打开scf文件夹，将POSCAR删除并将CONTCAR重命名POSCAR。
 
-打开INCAR并修改。
+打开INCAR并修改，修改内容为ISTART = 1; ICHARG =1；IBRION = -1； NSW =0。
 
 ### INCAR
 - #Global  parameter
@@ -100,7 +100,7 @@ vaspkit获取能带数据操作流程：vaspkit ————— 303 ————
 
 将自洽计算后的scf文件复制一份并命名复制文件夹（dos）。
 
-打开INCAR并修改。
+打开INCAR并修改，修改内容为ISTART = 1; ICHARG =11；添加 NEDOS=3000;。
 
 ### INCAR
 - #Global  parameter
